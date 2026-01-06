@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Ben Walker Data UK</title>
+  <meta content="" name="Ben Walker's Data analyst portfolio website, detailing the employment history, experience and portfolio projects.">
+  <meta content="" name="ben, walker, data, analyst, data analyst, data, dataviz, united kingdom, UK">
+  <meta name="description" content="Data Analyst Ben Walker Portfolio: Unlock data insights with his expertise in analysis, visualization & modeling. Get in touch for your next data challenge."
+
+  <!-- Favicons -->
+  <link href="static/assets/img/favicon.png" rel="icon">
+  <link href="static/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="static/assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="static/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="static/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="static/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="static/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="static/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="static/assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: MyResume
+  * Updated: Sep 18 2023 with Bootstrap v5.3.2
+  * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+  <!-- ======= Mobile nav toggle button ======= -->
+  <!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> -->
+  <i class="bi bi-list mobile-nav-toggle d-lg-none"></i>
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex flex-column justify-content-center">
+
+    <nav id="navbar" class="navbar nav-menu">
+      <ul>
+        <li><a href="{{ url_for('index') }}" class="nav-link scrollto"><i class="bx bx-home"></i> <span>Home</span></a></li>
+        <li><a href="{{ url_for('index') + '#about' }}" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+        <li><a href="{{ url_for('index') + '#resume'}}"" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+        <li><a href="{{ url_for('index') + '#portfolio' }}" class="nav-link scrollto active"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
+        <li><a href="{{ url_for('index') + '#contact' }}" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+      </ul>
+    </nav><!-- .nav-menu -->
+
+  </header><!-- End Header -->
+
+  <main id="main">
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio section-bg">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Portfolio</h2>
+          <p>I have compiled a number of Data Analysis, Visualisation and Machine Learning projects with various tools, including Python, R, SQL, Tableau & PowerBI.</p>
+        </div>
+        <div class="row">
+
+          <div class="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-viz">Data Visualisation</li>
+              <li data-filter=".filter-analysis">Data Analysis</li>
+              <li data-filter=".filter-ml">Machine Learning</li>
+            </ul>
+          </div>
+        </div>
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+                    <!-- ======ALL PROJECTS SHOULD BE POSTED HERE ======-->
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-viz filter-analysis">
+            <div class="portfolio-wrap">
+              <img src="static/assets/img/portfolio/python-analysis-UKPop.jpg" class="img-fluid" alt="Python - United Kingdom Population Analysis">
+                <div class="portfolio-info">
+                  <h4>Data Analysis - Python</h4>
+                  <p>Data Analysis & Visualisation</p>
+                  <div class="portfolio-links">
+                    <a href="static/assets/img/portfolio/python-analysis-UKPop.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Python - United Kingdom Population Analysis" alt="Python - United Kingdom Population Analysis"><i class="bx bx-plus"></i></a>
+                    <a href="https://github.com/benwalkerdata/Portfolio_UK_Population_Analysis/blob/main/UK_Population_Analysis.ipynb" target="_blank" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                  </div>
+                </div>
+            </div>
+          </div>
+          
+          <div class="col-lg-4 col-md-6 portfolio-item filter-analysis filter-viz">
+            <div class="portfolio-wrap">
+              <img src="static/assets/img/portfolio/python-da-p1.jpg" class="img-fluid" alt="Data Analysis - Python - Analysing House Prices and Salaries over time">
+              <div class="portfolio-info">
+                <h4>Data Analysis - Python</h4>
+                <p>Analysing House Prices and Salaries over time</p>
+                <div class="portfolio-links">
+                  <a href="static/assets/img/portfolio/python-da-p1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Data Analysis - Python - Analysing House Prices and Salaries over time" alt="Data Analysis - Python - Analysing House Prices and Salaries over time"><i class="bx bx-plus"></i></a>
+                  <a href="https://github.com/benwalkerdata/Portfolio-HousePrice_and_Salary_Analysis/blob/main/house_price_salary_analysis.ipynb" target="_blank"  data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-ml">
+            <div class="portfolio-wrap">
+              <img src="static/assets/img/portfolio/R-NeuralNetwork-p1.jpg" class="img-fluid" alt="Neural Network - R - Identifying authentic bank notes">
+              <div class="portfolio-info">
+                <h4>Neural Network - R</h4>
+                <p>Machine Learning</p>
+                <div class="portfolio-links">
+                  <a href="static/assets/img/portfolio/R-NeuralNetwork-p1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Neural Network - R - Identifying authentic bank notes" alt="Decision Trees - R - Predicting whether schools are Private or Public"><i class="bx bx-plus"></i></a>
+                  <a href="https://github.com/benwalkerdata/Portfolio-R-NeuralNetwork/blob/main/Project_R_NeuralNet.ipynb" target="_blank"  data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-ml">
+            <div class="portfolio-wrap">
+              <img src="static/assets/img/portfolio/portfolio-r-decision-tree.jpg" class="img-fluid" alt="Decision Trees - R - Predicting whether schools are Private or Public">
+              <div class="portfolio-info">
+                <h4>Decision Trees - R</h4>
+                <p>Machine Learning</p>
+                <div class="portfolio-links">
+                  <a href="static/assets/img/portfolio/portfolio-r-decision-tree.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Decision Trees - R - Predicting whether schools are Private or Public" alt="Decision Trees - R - Predicting whether schools are Private or Public"><i class="bx bx-plus"></i></a>
+                  <a href="https://github.com/benwalkerdata/Portfolio-R-Decision-Trees/blob/main/Portfolio_Decision_Tree_R.ipynb" target="_blank"  data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-viz">
+            <div class="portfolio-wrap">
+              <img src="static/assets/img/portfolio/Tableau1.jpg" class="img-fluid" alt="Tableau Dashboard - Airbnb London statistics 2023">
+              <div class="portfolio-info">
+                <h4>Tableau Dashboard</h4>
+                <p>Data Visualisation</p>
+                <div class="portfolio-links">
+                  <a href="static/assets/img/portfolio/Tableau1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Tableau Dashboard - Airbnb London statistics 2023", alt="Tableau Dashboard - Airbnb London statistics 2023"><i class="bx bx-plus"></i></a>
+                  <a href="https://public.tableau.com/views/AirbnbLondonstatistics2023/Dashboard1?:language=en-GB&:display_count=n&:origin=viz_share_link" target="_blank"  data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-ml">
+            <div class="portfolio-wrap">
+              <img src="static/assets/img/portfolio/linear-regression-r.jpg" class="img-fluid" alt="Linear Regression - R - Bike Rentals">
+              <div class="portfolio-info">
+                <h4>Linear Regression - R</h4>
+                <p>Machine Learning</p>
+                <div class="portfolio-links">
+                  <a href="static/assets/img/portfolio/linear-regression-r.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Linear Regression - R - Bike Rentals", alt="Linear Regression - R - Bike Rentals"><i class="bx bx-plus"></i></a>
+                  <a href="https://github.com/benwalkerdata/Portfolio-R-LinearRegression/blob/875d6c7b0cd74a9d3201c125b65e77e380c4d833/Linear_Regression_Project.ipynb" target="_blank" data-glightbox="type: external" title="Project Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-viz">
+            <div class="portfolio-wrap">
+              <img src="static/assets/img/portfolio/excel-dataviz.jpg" class="img-fluid" alt="Excel Dashboard - Bike Sales">
+              <div class="portfolio-info">
+                <h4>Excel Dashboard</h4>
+                <p>Data Visualisation</p>
+                <div class="portfolio-links">
+                  <a href="static/assets/img/portfolio/excel-dataviz.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Excel Dashboard - Bike Sales" alt="Excel Dashboard - Bike Sales"><i class="bx bx-plus"></i></a>
+                  <a href="https://github.com/benwalkerdata/Portfolio-ExcelProject" target="_blank" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-analysis">
+            <div class="portfolio-wrap">
+              <img src="static/assets/img/portfolio/sql-exploration.jpg" class="img-fluid" alt="Data Exploration - SQL">
+              <div class="portfolio-info">
+                <h4>Data Exploration - SQL</h4>
+                <p>Data Analysis</p>
+                <div class="portfolio-links">
+                  <a href="static/assets/img/portfolio/sql-exploration.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Data Exploration - SQL" alt="Data Exploration - SQL"><i class="bx bx-plus"></i></a>
+                  <a href="https://github.com/benwalkerdata/Portfolio-sql/blob/1613e2a57c085ba096bbd418625ce8b174006f95/DataExploration-Covid.sql" target="_blank" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-ml">
+            <div class="portfolio-wrap">
+              <img src="static/assets/img/portfolio/linear-regression-python.jpg" class="img-fluid" alt="Linear Regression - Python - Bike Rentals">
+              <div class="portfolio-info">
+                <h4>Linear Regression - Python</h4>
+                <p>Machine Learning</p>
+                <div class="portfolio-links">
+                  <a href="static/assets/img/portfolio/linear-regression-python.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Linear Regression - Python - Bike Rentals" alt="Linear Regression - Python - Bike Rentals"><i class="bx bx-plus"></i></a>
+                  <a href="https://github.com/benwalkerdata/Portfolio-LinearRegression-Python/blob/e27ccfb209057df9f31a63f38c65f1d6c0c393ce/Linear_Regression_Project_Python.ipynb"  target="_blank" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-analysis filter-viz">
+            <div class="portfolio-wrap">
+              <img src="static/assets/img/portfolio/dataviz-r.jpg" class="img-fluid" alt="Data Analysis - R"">
+              <div class="portfolio-info">
+                <h4>Data Analysis - R</h4>
+                <p>Data Analysis</p>
+                <div class="portfolio-links">
+                  <a href="static/assets/img/portfolio/dataviz-r.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Data Analysis - R" alt="Data Analysis - R""><i class="bx bx-plus"></i></a>
+                  <a href="https://github.com/benwalkerdata/Portfolio-DataViz-R/blob/39558187e5772585940e7a722f48e1a58605ca63/DataViz-Project_R.ipynb" target="_blank" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-ml">
+            <div class="portfolio-wrap">
+              <img src="static/assets/img/portfolio/logistic-regression-python.jpg" class="img-fluid" alt="Logistic Regression - Python - Predicting Salary Group">
+              <div class="portfolio-info">
+                <h4>Logistic Regression - Python</h4>
+                <p>Machine Learning</p>
+                <div class="portfolio-links">
+                  <a href="static/assets/img/portfolio/logistic-regression-python.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Logistic Regression - Python - Predicting Salary Group" alt="Logistic Regression - Python - Predicting Salary Group"><i class="bx bx-plus"></i></a>
+                  <a href="https://github.com/benwalkerdata/Portfolio-LogisticRegression-Python/blob/ebbae373ef3fff753ec9f1f1397b31478d1510ad/Logistic_Regression_Project_Python.ipynb" target="_blank" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-analysis">
+            <div class="portfolio-wrap">
+              <img src="static/assets/img/portfolio/sql-cleaning.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Data Cleaning - SQL</h4>
+                <p>Data Analysis</p>
+                <div class="portfolio-links">
+                  <a href="static/assets/img/portfolio/sql-cleaning.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="SQL Data Cleaning"><i class="bx bx-plus"></i></a>
+                  <a href="https://github.com/benwalkerdata/Portfolio-sql/blob/1613e2a57c085ba096bbd418625ce8b174006f95/DataCleaningProject.sql" target="_blank" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-viz">
+            <div class="portfolio-wrap">
+              <img src="static/assets/img/portfolio/PowerBI-Project-img.jpg" class="img-fluid" alt="PowerBI Dashboard - Data Professional Survey Results">
+              <div class="portfolio-info">
+                <h4>PowerBI Dashboard</h4>
+                <p>Data Visualisation</p>
+                <div class="portfolio-links">
+                  <a href="static/assets/img/portfolio/PowerBI-Project-img.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="PowerBI Dashboard - Data Professional Survey Results" alt="PowerBI Dashboard - Data Professional Survey Results"><i class="bx bx-plus"></i></a>
+                  <a href="https://github.com/benwalkerdata/Portfolio-PowerBi" target="_blank" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-ml">
+            <div class="portfolio-wrap">
+              <img src="static/assets/img/portfolio/logistic-regression-r.jpg" class="img-fluid" alt="Logistic Regression - R - Predicting Salary Groups">
+              <div class="portfolio-info">
+                <h4>Logistic Regression - R</h4>
+                <p>Machine Learning</p>
+                <div class="portfolio-links">
+                  <a href="static/assets/img/portfolio/logistic-regression-r.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Logistic Regression - R - Predicting Salary Groups" alt="Logistic Regression - R - Predicting Salary Groups"><i class="bx bx-plus"></i></a>
+                  <a href="https://github.com/benwalkerdata/Portfolio-R-LogisticRegression/blob/4100981134e9d764cf7b64c5a00743792630928a/Logistic_Regression_Project.ipynb" target="_blank"  data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-ml">
+            <div class="portfolio-wrap">
+              <img src="static/assets/img/portfolio/portfolio-knn-r.jpg" class="img-fluid" alt="K Nearest Neighbour - R - Predicting Titanic Passenger Classes">
+              <div class="portfolio-info">
+                <h4>K Nearest Neighbour - R</h4>
+                <p>Machine Learning</p>
+                <div class="portfolio-links">
+                  <a href="static/assets/img/portfolio/portfolio-knn-r.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="K Nearest Neighbour - R - Predicting Titanic Passenger Classes" alt="K Nearest Neighbour - R - Predicting Titanic Passenger Classes"><i class="bx bx-plus"></i></a>
+                  <a href="https://github.com/benwalkerdata/Portfolio-ML-KNN/blob/main/KNN-Project-R.ipynb" target="_blank"  data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-ml">
+            <div class="portfolio-wrap">
+              <img src="static/assets/img/portfolio/R-svm-p1.jpg" class="img-fluid" alt="Support Vector Machines - R - Predicting which borrowers will failed to pay their debts">
+              <div class="portfolio-info">
+                <h4>Support Vector Machines - R</h4>
+                <p>Machine Learning</p>
+                <div class="portfolio-links">
+                  <a href="static/assets/img/portfolio/R-svm-p1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="K Nearest Neighbour - R - Predicting which borrowers will failed to pay their debts" alt="K Nearest Neighbour - R - Predicting Titanic Passenger Classes"><i class="bx bx-plus"></i></a>
+                  <a href="https://github.com/benwalkerdata/Portfolio-SVM-R/blob/main/SVM_R.ipynb" target="_blank"  data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-ml">
+            <div class="portfolio-wrap">
+              <img src="static/assets/img/portfolio/R-kmc-p1.jpg" class="img-fluid" alt="K Means Clustering - R - Predicting Red & White wines">
+              <div class="portfolio-info">
+                <h4>K Means Clustering - R</h4>
+                <p>Machine Learning</p>
+                <div class="portfolio-links">
+                  <a href="static/assets/img/portfolio/R-kmc-p1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="K Nearest Neighbour - R - Predicting Red & White wines" alt="K Nearest Neighbour - R - Predicting Titanic Passenger Classes"><i class="bx bx-plus"></i></a>
+                  <a href="https://github.com/benwalkerdata/Portfolio-R-KMC/blob/main/KMC_R.ipynb" target="_blank"  data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-viz filter-analysis">
+            <div class="portfolio-wrap">
+              <img src="static/assets/img/portfolio/python-analysis-UKPop.jpg" class="img-fluid" alt="Python - United Kingdom Population Analysis">
+                <div class="portfolio-info">
+                <h4>Data Analysis - Python</h4>
+                <p>Data Analysis & Visualisation</p>
+                <div class="portfolio-links">
+                  <a href="static/assets/img/portfolio/python-analysis-UKPop.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Python - United Kingdom Population Analysis" alt="Python - United Kingdom Population Analysis"><i class="bx bx-plus"></i></a>
+                  <a href="https://github.com/benwalkerdata/Portfolio_UK_Population_Analysis/blob/main/UK_Population_Analysis.ipynb" target="_blank" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <h3>Ben Walker</h3>
+      <p>Data Analyst | Data Consultant </p>
+      <div class="social-links">
+        <a href="https://mobile.twitter.com/benwalkerit" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="https://www.linkedin.com/in/benwalkerit/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        <a href="https://github.com/benwalkerit" class="github"><i class="bx bxl-github"></i></a>
+        <a href="https://www.instagram.com/benwalkerdata" class="instagram"><i class="bx bxl-instagram"></i></a>
+      </div>
+      <div class="copyright">
+        &copy; Copyright <strong><span>Ben Walker</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <a href={{ url_for("privacy") }}>Privacy Policy</a>
+        <br>
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        <br>
+        Photography by Claire Walker
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="static/assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="static/assets/vendor/aos/aos.js"></script>
+  <script src="static/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="static/assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="static/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="static/assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="static/assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="static/assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "04882042e20248dcab176034b1b2d6c6"}'></script><!-- End Cloudflare Web Analytics -->
+
+
+  <!-- Template Main JS File -->
+  <script src="static/assets/js/main.js"></script>
+
+</body>
+
+</html>
